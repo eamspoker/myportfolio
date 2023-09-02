@@ -1,15 +1,42 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Homepage from './Pages/Homepage';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import Projects from './Pages/Projects';
+import KhanAcademy from './Pages/ProjectPages/KhanAcademy';
+import FrameGame from './Pages/ProjectPages/TheFrameGame';
+import ClimateCoach from './Pages/ProjectPages/ClimateCoach';
+import CoffeeGuide from './Pages/ProjectPages/CoffeeGuide';
+import Golem from './Pages/ProjectPages/TheGolem';
+import Zoo from './Pages/ProjectPages/Zoo';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
-    <App />
+
+<HashRouter>
+      <Routes>
+        <Route index element={<Homepage />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="khanacademy" element={<KhanAcademy />} />
+        <Route path="framegame" element={<FrameGame />} />
+        <Route path="climatecoach" element={<ClimateCoach />} />
+        <Route path="coffeeguide" element={<CoffeeGuide />} />
+        <Route path="golem" element={<Golem />} />
+        <Route path="zoo" element={<Zoo />} />
+
+
+
+
+
+      
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
 

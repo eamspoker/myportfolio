@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Almendra&family=Bitter:wght@400;700&family=Darumadrop+One&family=Open+Sans:wght@400&display=swap');
+
+
+
+a {
+  color: plum;
+  text-decoration: none;
+}
+
+p {
+  font-family:'Open Sans', sans-serif;
+  font-size:  24px
+}
+
+h1 {
+  font-family:'Bitter', serif;
+}
+
+h2 {
+  font-size: 2em;
+  font-family:'Bitter', serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family:'Bitter', serif;
+}
+
+h5 {
+  font-family:'Open Sans', sans-serif;
+  color: gray,
+
+}
