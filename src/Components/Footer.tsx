@@ -14,7 +14,7 @@ function Footer() {
       padding: "10px",
     }
   return (
-      <Grid spacing={2}>
+      <Grid container spacing={2}>
           <footer style={footerStyle}>
           </footer>
         </Grid>

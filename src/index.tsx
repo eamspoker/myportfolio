@@ -11,6 +11,7 @@ import ClimateCoach from './Pages/ProjectPages/ClimateCoach';
 import CoffeeGuide from './Pages/ProjectPages/CoffeeGuide';
 import Golem from './Pages/ProjectPages/TheGolem';
 import Zoo from './Pages/ProjectPages/Zoo';
+import Resume from './Pages/Resume';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -29,6 +30,7 @@ root.render(
         <Route path="coffeeguide" element={<CoffeeGuide />} />
         <Route path="golem" element={<Golem />} />
         <Route path="zoo" element={<Zoo />} />
+        <Route path="resume" element={<Resume />} />
 
 
 

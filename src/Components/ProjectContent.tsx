@@ -1,8 +1,6 @@
-import { Grid, Paper } from '@mui/material';
-import { createRequire } from 'module';
+import {Grid, Paper } from '@mui/material';
 import React from 'react';
 
-import CoffeeGuide from './Assets/CoffeeGuide.jpeg';
 
 type Props = 
 {
@@ -30,18 +28,28 @@ function ProjectContent(props: Props) {
       if (title == "IMAGE")
       {
        
-        const img =  images ? images[imageCounter] : <div></div>;
+        const img =  images ? images[imageCounter] : <div key={index}></div>;
         imageCounter++;
+        console.log("aaaa")
         return img;
 
-      }
+      } else if (title == "IMAGELINK")
+      {
+        console.log("aaaa")
+       
+        const img =  images ? images[imageCounter] : <div></div>;
+        imageCounter++;
+        return (<a href={sections[index]} key={index} target="_blank">
+                {img}
+                </a>);
 
-      if (sections[index] == "")
+      } else if (sections[index] == "")
       {
         return index%2 == 0 ? (<Grid
           container
           spacing={2}
           justifyContent="left"
+          key={index}
           >
             <Grid item xs={3}>
             <h2 style={{textAlign: "left"}}>{title}</h2>
@@ -53,6 +61,7 @@ function ProjectContent(props: Props) {
             container
             spacing={2}
             justifyContent="left"
+            key={index}
             >
               <Grid item xs={9}>
               </Grid>
@@ -60,11 +69,12 @@ function ProjectContent(props: Props) {
               <h2 style={{textAlign: "right"}}>{title}</h2>
               </Grid>
             </Grid>);
-      }
+      } else {
       return index%2 == 0 ? (<Grid
         container
         spacing={2}
         justifyContent="left"
+        key={index}
         >
           <Grid item xs={3}>
           <h2 style={{textAlign: "left"}}>{title}</h2>
@@ -81,6 +91,7 @@ function ProjectContent(props: Props) {
           container
           spacing={2}
           justifyContent="left"
+          key={index}
           >
             <Grid item xs={9}>
             </Grid>
@@ -93,6 +104,7 @@ function ProjectContent(props: Props) {
              </Paper>
           </Grid>
           </Grid>)
+      }
   }));
 }
 

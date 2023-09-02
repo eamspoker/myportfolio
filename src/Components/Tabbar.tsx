@@ -9,13 +9,13 @@ type Props = {
 function Tabbar(props: Props) {
 
    const {page} = props;
-   const pages: string[] = ["Home", "Projects", "Research Areas", "Resume/CV"];
+   const pages: string[] = ["Home", "Projects", "Resume/CV"];
    const selectedStyle = {
     textDecoration: "underline",
    };
    const LinkItem = (index : number) => {
        const content = pages[index];
-       const link = content == "Home" ? "/" : "/" + content.toLowerCase();
+       const link = content == "Home" ? "/" : "/" + content.split("/")[0].toLowerCase();
        if (index == page)
        {
         return <Link to={link} style={selectedStyle}>{content}</Link>
@@ -33,8 +33,8 @@ function Tabbar(props: Props) {
   alignItems="center"
 >
 
-    {Array.from(Array(4)).map((_, index) => (
-        <Grid item xs={3}>
+    {Array.from(Array(3)).map((_, index) => (
+        <Grid item xs={3} key={index}>
             {LinkItem(index)}
         </Grid>
     ))}

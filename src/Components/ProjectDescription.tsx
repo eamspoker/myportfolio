@@ -5,8 +5,8 @@ type Props =
 {
   name: string,
   skills: string,
-  titles: Array<string>,
-  sections: Array<string>,
+  titles?: Array<string>,
+  sections?: Array<string>,
 }
 function ProjectDescription(props: Props) {
   const {name, skills, titles, sections} = props;
