@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.56d0a838.css",
-    "main.js": "/static/js/main.c5abdcd8.js",
-    "static/js/787.95b31c9a.chunk.js": "/static/js/787.95b31c9a.chunk.js",
-    "static/media/FinalDisplay.mp4": "/static/media/FinalDisplay.e75ca6b430bf9f6a8665.mp4",
-    "static/media/UnityEditor.png": "/static/media/UnityEditor.e1e317e37bd2ce69a121.png",
-    "static/media/FrameGame.png": "/static/media/FrameGame.17c86f085a37fb0bad78.png",
-    "static/media/ReadingNotes.png": "/static/media/ReadingNotes.f90aff3a5d37d113d6cf.png",
-    "static/media/CoffeeGuide3.jpg": "/static/media/CoffeeGuide3.6b9f5cf4cad6dca380e3.jpg",
-    "static/media/CoffeeGuide.jpg": "/static/media/CoffeeGuide.baa20021b71295066073.jpg",
-    "static/media/CoffeeGuide2.jpg": "/static/media/CoffeeGuide2.7071ad30afbb4d09cf6b.jpg",
-    "static/media/ClimateCoach0.png": "/static/media/ClimateCoach0.93d0ca8bd94dddf04a50.png",
-    "static/media/Goals.jpg": "/static/media/Goals.5f710c74711771470551.jpg",
-    "static/media/Discussions.png": "/static/media/Discussions.645ca0765dffaed7c260.png",
-    "static/media/ClimateCoach.png": "/static/media/ClimateCoach.4e6876a040bab0154155.png",
-    "static/media/pfp.jpeg": "/static/media/pfp.fa49225f71df4c025ccb.jpeg",
-    "index.html": "/index.html",
-    "main.56d0a838.css.map": "/static/css/main.56d0a838.css.map",
-    "main.c5abdcd8.js.map": "/static/js/main.c5abdcd8.js.map",
-    "787.95b31c9a.chunk.js.map": "/static/js/787.95b31c9a.chunk.js.map"
+    "main.css": "/myportfolio/static/css/main.56d0a838.css",
+    "main.js": "/myportfolio/static/js/main.36518947.js",
+    "static/js/787.95b31c9a.chunk.js": "/myportfolio/static/js/787.95b31c9a.chunk.js",
+    "static/media/FinalDisplay.mp4": "/myportfolio/static/media/FinalDisplay.e75ca6b430bf9f6a8665.mp4",
+    "static/media/UnityEditor.png": "/myportfolio/static/media/UnityEditor.e1e317e37bd2ce69a121.png",
+    "static/media/FrameGame.png": "/myportfolio/static/media/FrameGame.17c86f085a37fb0bad78.png",
+    "static/media/ReadingNotes.png": "/myportfolio/static/media/ReadingNotes.f90aff3a5d37d113d6cf.png",
+    "static/media/CoffeeGuide3.jpg": "/myportfolio/static/media/CoffeeGuide3.6b9f5cf4cad6dca380e3.jpg",
+    "static/media/CoffeeGuide.jpg": "/myportfolio/static/media/CoffeeGuide.baa20021b71295066073.jpg",
+    "static/media/CoffeeGuide2.jpg": "/myportfolio/static/media/CoffeeGuide2.7071ad30afbb4d09cf6b.jpg",
+    "static/media/ClimateCoach0.png": "/myportfolio/static/media/ClimateCoach0.93d0ca8bd94dddf04a50.png",
+    "static/media/Goals.jpg": "/myportfolio/static/media/Goals.5f710c74711771470551.jpg",
+    "static/media/Discussions.png": "/myportfolio/static/media/Discussions.645ca0765dffaed7c260.png",
+    "static/media/ClimateCoach.png": "/myportfolio/static/media/ClimateCoach.4e6876a040bab0154155.png",
+    "static/media/pfp.jpeg": "/myportfolio/static/media/pfp.fa49225f71df4c025ccb.jpeg",
+    "index.html": "/myportfolio/index.html",
+    "main.56d0a838.css.map": "/myportfolio/static/css/main.56d0a838.css.map",
+    "main.36518947.js.map": "/myportfolio/static/js/main.36518947.js.map",
+    "787.95b31c9a.chunk.js.map": "/myportfolio/static/js/787.95b31c9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56d0a838.css",
-    "static/js/main.c5abdcd8.js"
+    "static/js/main.36518947.js"
   ]
 }
