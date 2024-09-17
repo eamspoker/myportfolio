@@ -35,7 +35,7 @@ function Profile() {
         <h1>
           Hi, I'm Emily!
         </h1>
-        <h5 style={descriptionStyle}>Thanks for visiting my personal website! I made this website with React using the Material UI Library. </h5>
+        <h5 style={descriptionStyle}>Thanks for visiting my personal website! I made this website with React using the Material UI Library. Check out the source code <a href="https://github.com/eamspoker/myportfolio/tree/master" target="_blank">here</a>.</h5>
       </header>
       </Paper>
   );
