@@ -1,7 +1,7 @@
 {
   "name": "emilyportfolio",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://eamspoker.github.io/myportfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -16,6 +16,7 @@
     "@types/node": "^16.18.39",
     "@types/react": "^18.2.18",
     "@types/react-dom": "^18.2.7",
+    "framer-motion": "^11.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-native": "^0.72.3",

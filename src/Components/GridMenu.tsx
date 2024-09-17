@@ -1,6 +1,6 @@
 import React from 'react';
-import { ButtonBase, Grid, Link, Paper } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
+import { ButtonBase, Grid, Paper } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 type Props = {
     titles: Array<string>,
@@ -9,7 +9,6 @@ type Props = {
 }
 function GridMenu(props: Props) {
 
-  const navigate = useNavigate();
 
    const {titles, subtitles, components} = props;
 
@@ -39,12 +38,12 @@ function GridMenu(props: Props) {
     } else
     {
       return (<Grid item xs={3}>
-        <ButtonBase onClick={() => navigate(components[index])}>
+        <Link to={components[index]}>
           <Paper style={paperStyle} elevation={2} >
            <h3>{title}</h3>
            <p style={{fontSize:"1em",}}>{subtitles[index]}</p>
            </Paper>
-           </ButtonBase>
+           </Link>
         </Grid>);
       }
   })}
